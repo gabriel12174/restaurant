@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+/* html, body, .container-fluid { height: 100%; } */
+body { background: radial-gradient(black, white) no-repeat; }
+.container-fluid { max-width: 1200px; }
+.navbar { font-size: 1.2rem; }
+/* .carousel img, .row img { width: 100%; } */
+.titulo { font-size: 2rem; }
+    </style>
+</head>
+<body class="h-100">
+<a name="top" id="inicio"></a>
+
+<div class="container-fluid bg-light h-100">
+    &nbsp;
+    <div class="jumbotron bg-info text-white mb-0 rounded-0">
+        <h1>restaurante </h1>
+        Qualidade e melhor preço
+
+    <!-- Menu de navegação (navbar) -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand text-warning"></i></a>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#inicio"><i class="fas fa-home"></i> Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Artigos"><i class="fas fa-pen-fancy"></i> pratos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Notícias"><i class="fas fa-newspaper"></i> vinhos </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contatos"><i class="fas fa-envelope-open-text"></i> Contatos</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"><i class="fas fa-info-circle"></i> Sobre</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><i class="fas fa-code"></i> montar seu pratos</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-user-tie"></i> Sobre o restaurante</a>
+                    <a class="dropdown-item" href="#"><i class="fas fa-user-lock"></i> Leis</a>
+                </div>
+            </li>
+            </ul>
+
+            <!-- Formulário de busca -->
+            <form class="form-inline ml-auto" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Procurar...">
+                <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+
+        </div>
+    </nav>
+
+    <!-- Carroucel -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\0111.jpg" alt="Los Angeles" class="w-40">
+                <div class="carousel-caption">
+                  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\3.jpg" alt="Chicago" class="w-100">
+                <div class="carou">
+                    <h3>Frango empanado </h3>
+                    <P></P>
+                
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\05.jpg" alt="New York" class="w-100">
+                <div class="carousel-caption">
+                    <h3>Bife a role</h3>
+        
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\31.jpg" alt="New York" class="w-100">
+                <div class="carousel-caption">
+                    <h3>caldo de pato</h3>
+                    <p></p>
+                </div>
+             </div>
+            </div>
+          
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+        </div>
+
+        <!-- Conteúdo da página -->
+        <div class="alert alert-success mt-3 titulo border border-success shadow">
+            <strong>Artigos Recentes</strong>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\15.jfif" alt="New York" class="w-100">
+                <h3>feijoada</h3>
+            </div>
+            <div class="col">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\fran.jfif" alt="New York" class="w-100">
+                <h3>Galinha caipira</h3>
+               
+            </div>
+            <div class="col">
+                <img src="C:\informática basica\DESIGN RESPONSIVO\Aula 04\img\mojica.jpg" alt="New York" class="w-100">
+                <h3>Mojica de pintado </h3>
+              
+            </div>
+        </div>
+
+ 
+</script>
+</body>
+</html>
